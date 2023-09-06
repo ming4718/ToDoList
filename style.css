@@ -1,0 +1,105 @@
+body {
+  background-color: #e9ecef;
+}
+h1 {
+  margin: 0;
+  color: white;
+  font-size: 36px;
+  padding-top: 10px;
+  text-align: center;
+  align-items: center;
+}
+ul {
+  padding: 0;
+}
+.title {
+  width: 512px;
+  height: 768px;
+  position: relative;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.04);
+  margin: 0 auto;
+  margin-top: 96px;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+}
+.head {
+  padding-bottom: 21px;
+  background-color: rgb(58, 92, 165);
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.contents {
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.list {
+  color: rgb(38, 174, 90);
+  text-align: left;
+  font-weight: bold;
+  font-size: 18px;
+}
+#complete {
+  color: rgb(38, 174, 90);
+  text-align: left;
+  font-weight: bold;
+  font-size: 18px;
+}
+.item {
+  list-style-type: none;
+  padding-left: 20px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e9ecef;
+  padding-bottom: 15px;
+}
+.removeButton {
+  background-color: white;
+  border: none;
+  margin-left: auto;
+  margin-right: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+.removeButton:hover {
+  color: red;
+  transition: 0.5s;
+}
+.enter {
+  width: 450px;
+  margin: 0 auto;
+  display: block;
+  border: 1px solid #e9ecef;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+.enter:focus {
+  outline: none;
+}
+.inputbox {
+  align-items: center;
+  display: block;
+  margin: 0 auto;
+}
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+.checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 8px;
+}
