@@ -1,5 +1,5 @@
 # ToDoList
-JavaScript 활용한 ToDoList
+[JavaScript 활용한 ToDoList](https://mintodolist.netlify.app/)
 ## 🖥️ 프로젝트 소개
 일정추가 삭제 가능한 ToDoList 입니다.
 <br>
